@@ -1,0 +1,98 @@
+.All{
+    display: grid;
+    grid-template-rows:50px repeat(6,1fr)50px;
+    grid-template-columns: repeat(10,1fr);
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(152, 229, 35);
+    height: 40px;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 1;
+    grid-column-end: 12;
+}
+
+.SC2{
+    display: flex;
+    gap: 2px;
+    text-align: center;
+    background-color: rgb(233, 203, 233);
+    color: white;
+    font-size: 24px;
+    padding: 50px;  
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 6;
+}
+.Main{
+    background-color: #c4a46d;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    grid-row-start: 2;
+    grid-column-start: 5;
+    grid-row-end: 5;
+    grid-column-end: 12;
+}
+.Extra{
+    background-color: #9aa48c;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    grid-row-start: 4;
+    grid-column-start: 5;
+    grid-row-end: 5;
+    grid-column-end: 12;
+}
+.SC3{
+    background-color: #46582d;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 5;
+}
+.RI{
+    background-color: #3084ad;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    grid-column-end: 8;
+}
+.RP{
+    background-color: #c94f71;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    grid-row-start:5 ;
+    grid-column-start: 8;
+    grid-row-end: 5;
+    grid-column-end: 12;
+}
+.Footer{
+    background-color: #0000ff;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    grid-column-end: 12;    
+}

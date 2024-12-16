@@ -1,0 +1,96 @@
+.All{
+    display: grid;
+    grid-template-rows:50px repeat(6,1fr)50px;
+    grid-template-columns: repeat(10,1fr);
+}
+body{
+    background-color: aliceblue;
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 169, 172);
+    height: 40px;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 1;
+    grid-column-end: 12;
+}
+.As{
+    display: flex;
+    gap: 2px;
+    text-align: center;
+    background-color: rgb(63, 216, 66);
+    color: white;
+    font-size: 24px;
+    padding: 50px;  
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    grid-column-end: 2;
+}
+.Ar{
+    display: flex;
+    gap: 2px;
+    text-align: center;
+    background-color: rgb(213, 117, 14);
+    color: white;
+    font-size: 24px;
+    padding: 50px;  
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 6;
+    grid-column-end:12 ;
+}
+.I1{
+    display: flex;
+    gap: 2px;
+    text-align: center;
+    background-color: rgb(213, 167, 14);
+    color: white;
+    font-size: 24px;
+    padding: 50px;  
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-row-end: 4;
+    grid-column-end:4 ;
+}
+.I2{
+    display: flex;
+    gap: 2px;
+    text-align: center;
+    background-color: rgb(213, 167, 14);
+    color: white;
+    font-size: 24px;
+    padding: 50px;  
+    grid-row-start: 4;
+    grid-column-start: 6;
+    grid-row-end: 4;
+    grid-column-end:6 ;
+}
+.I3{
+    display: flex;
+    gap: 2px;
+    background-color: rgb(213, 167, 14);
+    color: white;
+    font-size: 24px;
+    padding: 50px;  
+    grid-row-start: 4;
+    grid-column-start: 8;
+    grid-row-end: 4;
+    grid-column-end:8 ;
+}
+.Fo{
+    background-color: rgb(17, 169, 172);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    grid-row-start: 7;
+    grid-column-start: 1;
+    grid-row-end: 7;
+    grid-column-end: 12;    
+}

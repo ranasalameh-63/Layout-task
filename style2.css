@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #c4b973;
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d1d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.avatar::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #aaa;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+}
+
+.avatar::after {
+    content: '';
+    width: 50px;
+    height: 30px;
+    background-color: #aaa;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+}
+
+.user-info h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #999;
+    margin: 0;
+}
